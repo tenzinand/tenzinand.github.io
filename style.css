@@ -1,0 +1,34 @@
+/* Fichier CSS à personnaliser */
+body {
+    background: linear-gradient(90deg, purple, red);
+
+}
+h1 {
+    text-align: center;
+    color: red;
+    background-color: pink;
+  }
+
+.specialColor {
+color: red;
+background-color: purple
+border: solid write;
+} 
+  
+.souligne {
+    text-decoration: underline red;
+}
+
+#bloc1 {
+    border: 5px solid purple;
+    width: 40%;
+    background-color: darkturquoise;
+    color: black;
+    padding:20px;
+  }
+
+  #monImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

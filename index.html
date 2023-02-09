@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<!-- -->
+    <head>
+    <!--La partie head n'apparait pas dans la fenetre du navigateur, sauf le titre qui est le nom de l'onglet qui s'ouvre dans le navigateur.
+        Elle contient des infos importantes pour garantir un affichage correct, référencé et stylé -->
+        <meta charset="UTF-8">
+        <title>Music</title>
+        <link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+    </head>
+
+    <!--La partie body englobe le contenu textuel structuré 
+        et les liens vers :
+        - soit des éléments multimédia (photo, audio, vidéo)
+        - soit des pages déjà présentes sur le web 
+        - soit d'autres pages que vous créez... -->
+
+    <body>
+        <!--Structurer son texte-->
+       <button onclick="mettreStyleSpecial()">Color</button>
+       <button onclick="enleveStyleSpecial()">Other color</button>  
+<h1>Chanson préférée </h1>
+          
+ <p>  La musique est un art et une activité culturelle consistant à combiner sons et silences au cours du temps. Les paramètres principaux sont le rythme, la hauteur, les nuances et le timbre. Elle est aujourd'hui considérée comme une forme de poésie moderne. La musique donne lieu à des créations, des représentations.</p
+Mes chansons préférées <br>Mes chansons préférées :
+       
+            <li>1) Shameless Camilla Cabello  </li>
+            <li>  2) I kissed A girl Katy Perry </li>
+            <li> 3) Collide Justine Skye  </li>
+            <li>  4) Escapism Raye  </li>
+        
+        <!-- pour integrer une image, enregistrée dans le même répertoire que le présent fichier HTML-->
+        <img src="Image1.jpg"><br>
+
+        <!--pour integrer une vidéo, enregistrée dans le même répertoire que le présent fichier HTML-->
+        <video controls="controls">
+                <source src="nom_du_fichier_video.mp4">
+        </video><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0EBw-CWc4Uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- intégration d'une vidéo présente sur YouTube : cliquer sur Partager, puis sur Intégrer(Embed) puis copier/coller le code.
+        Le code consiste en une balise <iframe> -->
+
+        <!--pour integrer un fichier son, enregistré dans le même répertoire que le présent fichier HTML-->
+        <audio controls="controls">
+                <source src="nom_du_fichier_som.mp3">
+        </audio>
+		<br>
+
+        <!--pour integrer un lien vers un autre site -->
+        <a href="https://www.futura-sciences.com/sante/actualites/vie-sante-5-bonnes-raisons-ecouter-musique-8019/">Le texte sur lequel cliquer</a>
+        <br>
+        <!--pour integrer un lien vers un autre page HTML, enregistrée dans le même répertoire que le présent fichier HTML-->
+        <a href="squelette2.html">Autre clic</a><br>
+        
+	</body>
+</html>

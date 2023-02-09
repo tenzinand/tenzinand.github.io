@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<!-- Je suis dans un commmentaire -->
+    <head>
+    <!--La partie head n'apparait pas dans la fenetre du navigateur, sauf le titre qui est le nom de l'onglet qui s'ouvre dans le navigateur.
+        Elle contient des infos importantes pour garantir un affichage correct, référencé et stylé -->
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+	<title>livre</title>
+    </head>
+
+    <!--La partie body englobe le contenu textuel structuré 
+        et les liens vers :
+        - soit des éléments multimédia (photo, audio, vidéo)
+        - soit des pages déjà présentes sur le web 
+        - soit d'autres pages que vous créez... -->
+
+    <body>
+        <!--Structurer son texte-->
+        <h1>Les livres</h1>
+       
+        <h2> Quelles sont les avantages de la lectures? </h2>
+        
+       
+        
+        <p> Tout comme le sport par exemple, la lecture procure du plaisir, aide à oublier les problèmes du quotidien et nous éloigne du stress. La lecture permet de développer la mémoire et les capacités cognitives. Comprendre un livre nécessite de retenir une grande quantité d'informations. </p>
+
+        <!-- une liste sans numérotation-->
+        <ul>
+            <li> 1. Stimule le cerveau </li>
+            <li>2. Diminue le stress  </li>
+            <li> 3. Améliore les connaissances </li>
+            <li> 4. Accroît le vocabulaire </li>
+            <li>  5. Améliore la mémoire</li>
+        </ul> 
+            <h2> Ma liste de livres à lire :</h2
+        <!-- une liste avec numérotation-->
+        <ol>
+            <li> « Vingt-quatre heures de la vie d’une femme », de Stefan Zweig </li>
+            <li>« La vie devant soi », de Romain Gary  </li>
+            <li>« Le Portrait de Dorian Gray », d’Oscar Wilde </li>
+            <li>« La nuit des temps », de Barjavel </li>
+        </ol> 
+
+        <!-- pour integrer une image, enregistrée dans le même répertoire que le présent fichier HTML-->
+        <img src="nom_du_fichier_image.jpg"><br>
+
+        <!--pour integrer une vidéo, enregistrée dans le même répertoire que le présent fichier HTML-->
+        <video controls="controls">
+                <source src="nom_du_fichier_video.mp4">
+        </video><br>
+
+        <!-- intégration d'une vidéo présente sur YouTube : cliquer sur Partager, puis sur Intégrer(Embed) puis copier/coller le code.
+        Le code consiste en une balise <iframe> -->
+
+        <!--pour integrer un fichier son, enregistré dans le même répertoire que le présent fichier HTML-->
+        <audio controls="controls">
+                <source src="nom_du_fichier_som.mp3">
+        </audio>
+		<br>
+
+        <!--pour integrer un lien vers un autre site -->
+        <a href="http://www.un_autre_site.html/">Le texte sur lequel cliquer</a>
+        <br>
+        <!--pour integrer un lien vers un autre page HTML, enregistrée dans le même répertoire que le présent fichier HTML-->
+        <a href="index.html">Autre clic</a><br>
+
+	</body>
+</html>
